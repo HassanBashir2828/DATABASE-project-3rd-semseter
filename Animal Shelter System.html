@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <span class="website-name">Animal Shelter System</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="Animal Shelter System.html">Home</a></li>
+      <li><a href="donation.html">Donation</a></li>
+      <li><a href="adoption.html">Adoption</a></li>
+      <li><a href="adoptors.html">adoptors</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="volunteertask.html">Volunteer Tasks</a></li>
+      <li><a href="medical.html">Medical Reports</a></li>
+    </ul>
+  </nav>
+  
+   <img src="https://th.bing.com/th/id/OIP.tdLgYwT1BR842lutLQWT8gHaDU?w=324&h=156&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Background Image" class="background-image">
+
+  
+      <!-- animal form -->
+      <form class="form-section" action="insert.php" method="post">
+        <h2>Add Animal</h2>
+        <label for="animalid">Animal ID:</label>
+        <input type="text" id="animalid" name="animal_id" required>
+        <br><br>
+        
+        <label for="animalName">Animal Name:</label>
+        <input type="text" id="animalName" name="animal_name" required> 
+        <br><br>
+        
+        <label for="species">Species:</label>
+        <input type="text" id="species" name="species" required>
+        <br><br>
+        
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" name="breed"> 
+        <br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <br><br>
+        
+        <button type="submit">Add Animal</button>
+    </form>
+    
+</body>
+</html>

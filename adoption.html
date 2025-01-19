@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<nav>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <span class="website-name">Animal Shelter System</span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="Animal Shelter System.html">Home</a></li>
+        <li><a href="donation.html">Donation</a></li>
+        <li><a href="adoption.html">Adoption</a></li>
+        <li><a href="adoptors.html">adoptors</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="volunteertask.html">Volunteer Tasks</a></li>
+        <li><a href="medical.html">Medical Reports</a></li>
+      </ul>
+  </nav>
+  
+  <img src="https://th.bing.com/th/id/OIP.O0V6YCo2dW7BnESnVXP6pwHaF7?w=240&h=192&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Background Image" class="background-image">
+ 
+ <!-- adoptions form -->
+ <form class="form-section" style="color: black" action="adoption.php" method="post">
+  <h2>Submit Adoption</h2>
+
+  <label for="adoptionId">Adoption ID:</label>
+  <input type="text" id="adoptionId" name="adoptionId" required>
+  <br><br>
+
+  <label for="animalId">Animal ID:</label>
+  <input type="text" id="animalId" name="animalId" required>
+  <br><br>
+
+  <label for="adopterId">Adopter ID:</label>
+  <input type="text" id="adopterId" name="adopterId" required>
+  <br><br>
+
+  <label for="adoptionDate">Date of Adoption:</label>
+  <input type="date" id="adoptionDate" name="adoptionDate" required>
+  <br><br>
+
+  <button type="submit">Submit Adoption</button>
+</form>

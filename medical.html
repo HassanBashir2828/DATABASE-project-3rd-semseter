@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <span class="website-name">Animal Shelter System</span>
+    </div>
+    
+    <ul class="nav-links">
+        <li><a href="Animal Shelter System.html">Home</a></li>
+        <li><a href="donation.html">Donation</a></li>
+        <li><a href="adoption.html">Adoption</a></li>
+        <li><a href="adoptors.html">adoptors</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="volunteertask.html">Volunteer Tasks</a></li>
+        <li><a href="medical.html">Medical Reports</a></li>
+      </ul>
+  </nav>
+  <img src="https://th.bing.com/th/id/OIP.3kg2JrJckTW-Da4htcYMxwHaE7?w=800&h=533&rs=1&pid=ImgDetMain" alt="Background Image" class="background-image">
+    <!-- medical form -->
+    <form class="form-section" action="medicalreport.php" method="post">
+        <h2>Submit Medical Record</h2><br>
+        <br>
+        <label for="MedicalRecordId">Medical Record ID:</label>
+        <input type="text" id="MedicalRecordId" name="MedicalRecordId" required>
+        <br>
+        <br>
+        <label for="animalId">Animal ID:</label>
+        <input type="text" id="animalId" name="animalId" required>
+        <br>
+        <br>
+        <label for="vaccinationStatus">Vaccination Status:</label>
+        <input type="text" id="vaccinationStatus" name="vaccinationStatus">
+        <br>
+        <br>
+        <label for="healthHistory">Health History:</label>
+        <textarea id="healthHistory" name="healthHistory"></textarea>
+        <br>
+        <br>
+        <button type="submit">Submit Medical Record</button>
+      </form>
+   
+  

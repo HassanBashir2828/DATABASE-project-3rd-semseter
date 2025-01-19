@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<nav>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo" class="logo">
+      <span class="website-name">Animal Shelter System</span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="Animal Shelter System.html">Home</a></li>
+        <li><a href="donation.html">Donation</a></li>
+        <li><a href="adoption.html">Adoption</a></li>
+        <li><a href="adoptors.html">adoptors</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="volunteertask.html">Volunteer Tasks</a></li>
+        <li><a href="medical.html">Medical Reports</a></li>
+      </ul>
+  </nav>
+  
+  <img src=" https://th.bing.com/th/id/OIP.mMWuzEPKzws6n-oi_7pAyQHaEo?rs=1&pid=ImgDetMain" alt="Background Image" class="background-image">
+ 
+<!-- volunteers form -->
+<form class="form-section" action="volunteer.php" method="post">
+    <h2 style="color:snow;">Add Volunteer</h2><br>
+    <br>
+    <label for="volunteerid">Volunteer ID:</label>
+    <input type="text" id="volunteerid" name="volunteerid" required>
+    <br>
+    <br>
+    <label for="volunteerName">Volunteer Name:</label>
+    <input type="text" id="volunteerName" name="volunteerName" required>
+    <br>
+    <br>
+    <label for="contactInfo">Contact Information:</label>
+    <input type="text" id="contactInfo" name="contactInfo">
+    <br>
+    <br>
+    <label for="availability">Availability (YES or NO):</label>
+    <input type="text" id="availability" name="availability">
+    <br>
+    <br>
+    <label for="taskAssigned">Task Assigned:</label>
+    <input type="text" id="taskAssigned" name="taskAssigned">
+    <br>
+    <br>
+    <button type="submit">Add Volunteer</button>
+  </form>
